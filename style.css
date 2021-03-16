@@ -1,0 +1,21 @@
+.navbar ul{
+    background-color: #c4c4c4;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    padding: 1.5rem;
+    margin-right: 0px;
+    font-size: 20px;
+    margin-left: inherit;
+    transition: 0.7s;
+    display: inline-flex;
+    float: right;
+}
+
+.navbar li:hover{
+    background-color: #919191;
+}

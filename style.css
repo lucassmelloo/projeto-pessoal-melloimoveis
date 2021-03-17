@@ -1,5 +1,7 @@
 body{
     background: #FFC700;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -23,4 +25,17 @@ body{
 
 .navbar li:hover{
     background-color: #919191;
+}
+
+.container {
+    display: flex;
+    position: relative;
+
+    width: 1300px;
+    height: 1300px;
+    background: #ffffff;
+    box-shadow: inset ;
+    margin: auto;
+    box-shadow: 0 0 5px #000000;
+
 }

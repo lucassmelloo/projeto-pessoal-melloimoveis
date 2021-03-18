@@ -20,7 +20,7 @@ body{
     margin-left: inherit;
     transition: 0.4s;
     display: inline-flex;
-    justify-content: end;
+    
     font-weight: bold;
 }
 

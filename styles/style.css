@@ -5,9 +5,6 @@ body{
     
 }
 
-.sobreposicao{
-    display: flex;
-}
 
 .navbar ul{
     background-color: #c4c4c4;
@@ -30,6 +27,10 @@ body{
 
 .navbar li:hover{
     background-color: #919191;
+}
+
+.firstsection{
+    display: flex;
 }
 
 .container {

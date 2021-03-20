@@ -26,6 +26,7 @@ body{
 
 .navbar li:hover{
     background-color: #919191;
+    cursor: pointer;
 }
 
 .firstsection{
@@ -92,4 +93,15 @@ body{
     border-radius: 5px;
     box-shadow: inset 0 0 5px;
     /* outline: 0; */
+}
+
+.line {
+    background: #c4c4c4;
+    width: 1000px;
+    height: 7px;
+    display: flex;
+    margin-top: 20px;
+    margin: 30px auto ;
+    border-radius: 2px;
+    
 }

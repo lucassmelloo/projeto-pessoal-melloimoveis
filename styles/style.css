@@ -93,8 +93,11 @@ body{
     border: none;
     border-radius: 5px;
     box-shadow: inset 0 0 5px;
+    border: none;
     /* outline: 0; */
 }
+
+
 
 .line {
     background: #c4c4c4;
@@ -124,6 +127,7 @@ body{
 .rightpart p{
     margin: auto;
     padding: 10px;
+    font-size: 20px;
 }
 
 .navbar{
@@ -133,7 +137,6 @@ body{
 
 .navbar2 ul{
     display: inline-flex;
-    
     padding: 15px;
 }
 

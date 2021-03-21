@@ -2,12 +2,11 @@ body{
     background: #FFC700;
     align-items: center;
     justify-content: center;
-    
+    display: block;
 }
 
 .navbar ul{
     background-color: #c4c4c4;
-    
     box-shadow: 0 0 5px #000000;
 }
 
@@ -29,8 +28,22 @@ body{
     cursor: pointer;
 }
 
+.logos{
+    float: left;
+    padding: 5px;
+    display: table-column;
+    width: 64px;
+    height: 128px;
+}
+
+.logos img{
+    padding: 5px;
+    float: left;
+}
+
 .firstsection{
     display: flex;
+    position:;
 }
 
 .container {

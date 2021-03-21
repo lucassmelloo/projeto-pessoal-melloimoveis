@@ -31,18 +31,18 @@ body{
 .logos{
     float: left;
     padding: 5px;
-    display: table-column;
-    width: 64px;
-    height: 128px;
+
 }
 
-.logos img{
-    padding: 5px;
-    float: left;
+.logos :hover{
+    cursor:pointer;
 }
+
 
 .firstsection{
     display: flex;
+    position: relative;
+    z-index: 10;
     
 }
 
@@ -110,6 +110,9 @@ body{
     /* outline: 0; */
 }
 
+.buttonfs:hover{
+    cursor: pointer;
+}
 
 
 .line {
@@ -163,5 +166,6 @@ body{
 .navbar2 li:hover{  
     font-family: "Noto Sans SC", sans-serif;
     background: #919191;
+    cursor: pointer;
 
 }

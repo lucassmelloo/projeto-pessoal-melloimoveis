@@ -28,17 +28,6 @@ body{
     cursor: pointer;
 }
 
-.logos{
-    float: left;
-    padding: 5px;
-
-}
-
-.logos :hover{
-    cursor:pointer;
-}
-
-
 .firstsection{
     display: flex;
     position: relative;

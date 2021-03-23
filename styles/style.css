@@ -159,16 +159,36 @@ body{
 
 }
 
+.informations{
+    width: 50%;
+}
+
 .lastsection {
     display: flex;
-
+    height: 500px;
 }
 
 .formulario {
     width: 50%;
-    
-    float: right;
-    margin: auto;
-    display: flex;
-    vertical-align: auto;
+    height: 50%;
+    align-items: center;
+
 }
+
+.formulario img{
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.formulario img:hover{
+    width: 68px;
+    height: 68px;
+    cursor: pointer;
+}
+
+.formulario input{
+    height: 20px;
+    display:flex;
+    /* border: none; */
+}
+

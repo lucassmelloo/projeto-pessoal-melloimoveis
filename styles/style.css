@@ -23,8 +23,17 @@ body{
     font-weight: bold;
 }
 
+.navbar li a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .navbar li:hover{
     background-color: #919191;
+    cursor: pointer;
+}
+
+.navbar a:hover{
     cursor: pointer;
 }
 
@@ -168,27 +177,32 @@ body{
     height: 500px;
 }
 
-.formulario {
+.lastright {
     width: 50%;
     height: 50%;
     align-items: center;
+    position: relative;
 
 }
 
-.formulario img{
+.socialmedias{
+    display: block;
+    margin: auto;
+}
+
+.lastright img{
     padding: 5px;
     transition: 0.2s;
+    
 }
 
-.formulario img:hover{
+.lastright img:hover{
     width: 68px;
     height: 68px;
     cursor: pointer;
+    filter: #4A7CFC ;
+    
 }
 
-.formulario input{
-    height: 20px;
-    display:flex;
-    /* border: none; */
-}
+
 

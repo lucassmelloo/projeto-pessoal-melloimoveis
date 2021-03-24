@@ -178,7 +178,7 @@ body{
     width: 50%;
 }
 
-.lastleft h2{
+h2{
     color: #000000;
     margin: 25px auto;
     font-weight: bold;
@@ -208,6 +208,25 @@ body{
 
 .lastsection img:hover{
     cursor: pointer;
+}
+
+.input{
+    color:#90A4AE;
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: #c4c4c4;
+    outline: none;
+    
+}
+
+.form button{
+    
+    margin-left: 30px;
+    width: 150px;
+    height: 100px;
 }
 
 footer{

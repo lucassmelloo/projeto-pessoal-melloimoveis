@@ -10,6 +10,15 @@ body{
     box-shadow: 0 0 5px #000000;
 }
 
+li img{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.navbar li:first-child {
+    color: #4A7CFC;
+}
+
 .navbar li {
     width: auto;
     height: 100%;
@@ -22,6 +31,8 @@ body{
     
     font-weight: bold;
 }
+
+
 
 .navbar li a {
     text-decoration: none;
@@ -218,6 +229,7 @@ h2{
 }
 
 .input, textarea{
+    margin-left: 5px;
     color:#90A4AE;
     display: flex;
     width: 300px;
@@ -255,4 +267,6 @@ footer{
     margin: auto;
 }
 
-
+footer p{
+    margin: auto;
+}

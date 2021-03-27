@@ -290,7 +290,7 @@ footer{
 
     /* Estilização do texto dos inputs */
     font-size: 16px;
-    color:#35363A ;
+    color:#757575 ;
 
     outline: none;
     padding: 5px;
@@ -298,14 +298,15 @@ footer{
 }
 
 .formleft textarea{
-    width: 300px;
+    width: 305px;
     height: 100px;
-    font-size: 12;
+    font-size: 16px;
     font-family: 'Noto Sans SC', sans-serif;
+    color: #757575;
 }
 
 .formright{
-    display: flex;
+    display: block;
     width: 30%;
     height: 90%;
     padding: 20px;

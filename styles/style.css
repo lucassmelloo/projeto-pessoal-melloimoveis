@@ -267,6 +267,56 @@ footer{
     margin: auto;
 }
 
+.form{
+    display: flex;
+    width: auto;
+    height: 275px;
+    margin: auto;;
+}
+
+.formleft{
+    display: block;
+    width: 70%;
+    height: 90%;
+   padding: 20px;
+}
+
+.formleft input{
+    /*Estilização dos inputs*/
+    border: none;
+    border-bottom: 1px #C4C4C4 solid;
+    width: 300px;
+    font-family: 'Noto Sans SC', sans-serif;
+
+    /* Estilização do texto dos inputs */
+    font-size: 16px;
+    color:#35363A ;
+
+    outline: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.formleft textarea{
+    width: 300px;
+    height: 100px;
+    font-size: 12;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.formright{
+    display: flex;
+    width: 30%;
+    height: 90%;
+    padding: 20px;
+}
+
+
+
+footer img{
+    margin: auto 0px auto auto;
+}
+
 footer p{
-    margin: auto;
+    margin: auto auto auto 0px;   
 }

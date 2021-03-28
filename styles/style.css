@@ -276,7 +276,7 @@ footer{
 
 .formleft{
     display: block;
-    width: 70%;
+    width: 65%;
     height: 90%;
    padding: 20px;
 }
@@ -307,12 +307,28 @@ footer{
 
 .formright{
     display: block;
-    width: 30%;
+    width: 35%;
     height: 90%;
     padding: 20px;
 }
 
+.formright label {
+    margin: auto;
+    
 
+}
+
+.sendform{
+    width: 100%;
+    color: #000000;
+    font-family: 'Noto Sans SC', sans-serif;
+    margin: 5px;
+
+    border-radius: 5px;
+    background-color: #FFC700;
+    outline: none;
+    border: none;
+}
 
 footer img{
     margin: auto 0px auto auto;
